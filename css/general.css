@@ -131,21 +131,32 @@ filter: alpha(opacity=95) !important;
 	left:0;
 	right:0;
 	bottom:0;
+	width: 100%;
 	background-color:#fff; /* change if the mask should have another color then white */
-	z-index:99; /* makes sure it stays on top */
+	z-index:1500; /* makes sure it stays on top */
 	transition: all 1s;
+	overflow: hidden;
+}
+
+#loader {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	text-align: center;
+	width: 200px;
+	margin-left: -100px;
+	height: 100px;
+	margin-top: -50px;
 }
 
 #status {
-	width:190px;
-	height:190px;
-	position:absolute;
-	left:50%; /* centers the loading animation horizontally one the screen */
-	top:50%; /* centers the loading animation vertically one the screen */
+	width:200px;
+	height:64px;
 	background-image:url(../img/status.gif); /* path to your loading animation */*/
 	background-repeat:no-repeat;
 	background-position:center;
-	margin:-100px 0 0 -100px; /* is width and height divided by two */
+
+	transition: all 1s;
 }
 
 .uu {
