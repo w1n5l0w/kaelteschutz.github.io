@@ -461,3 +461,8 @@ NO MORE TABLES!! ;)
 		font-weight: bold;
 	}
 }
+
+#spendenbox {
+	width: 500px;
+	margin: 20px auto;
+}
