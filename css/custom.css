@@ -123,6 +123,11 @@ color: #DE864C;
 color: #DE864C;
 }
 
+.navbar-brand {
+	font-size: 19px;
+	line-height: 21px;
+}
+
 #map { height: 400px; }
 
 .wrap_title{margin-bottom: 30px;}
