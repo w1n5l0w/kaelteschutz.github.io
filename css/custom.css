@@ -112,15 +112,15 @@ pre.pre-show{
 }
 /* Content */
 .table th, .table td {
-padding: 8px 12px;
+	padding: 8px 12px;
 }
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-color: #DE864C;
+	color: #DE864C;
 }
 
 .navbar-default .navbar-brand:hover {
-color: #DE864C;
+	color: #DE864C;
 }
 
 .navbar-brand {
@@ -312,7 +312,7 @@ footer p {
 	width: 33.3333333%;
 }
 .demo-lazy .demo-slide .bg{
-background: url('../img/AjaxLoader.gif') no-repeat center center #aebab6;
+	background: url('../img/AjaxLoader.gif') no-repeat center center #aebab6;
 }
 
 /* Auto Height */
@@ -349,10 +349,10 @@ background: url('../img/AjaxLoader.gif') no-repeat center center #aebab6;
 
 @media (max-width: 979px) {
 	.navbar-fixed-top .navbar-inner, .navbar-fixed-bottom .navbar-inner {
-	padding: 0px;
+		padding: 0px;
 	}
 	.navbar-fixed-top, .navbar-fixed-bottom {
-	position: fixed;
+		position: fixed;
 	}
 	.navbar-brand {
 		font-size: 18px;
@@ -385,9 +385,9 @@ background: url('../img/AjaxLoader.gif') no-repeat center center #aebab6;
 		margin: 10px 0;
 	}
 	#header h3{
-	margin-bottom: 10px;
-	width: auto;
-	padding: 0px 20px;
+		margin-bottom: 10px;
+		width: auto;
+		padding: 0px 20px;
 	}
 	h1 {
 		font-size: 38px;
@@ -414,7 +414,7 @@ background: url('../img/AjaxLoader.gif') no-repeat center center #aebab6;
 
 @media (max-width: 480px) {
 	.navbar-fixed-top, .navbar-fixed-bottom {
-	position: static;
+		position: static;
 	}
 	#header {
 		text-align: center;
